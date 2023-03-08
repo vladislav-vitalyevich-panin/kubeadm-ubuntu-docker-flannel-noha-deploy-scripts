@@ -3,8 +3,8 @@ This repository contains a set of scripts that are designed to install a Kuberne
 
 
 ## Introduction
-This repository contains a set of scripts **based on APT-GET** that are designed to install a Kubernetes cluster with a single control plane node.
-The scripts are designed to be used on a system with bash and APT package manager - they were tested on Ubuntu 20.04 image on three Hetzner Cloud instances (CX11, CX21 and CX21).
+This repository contains a set of scripts, that are designed to install a Kubernetes cluster with a single control plane node.
+The scripts are designed to be used on an Ubuntu system - they were tested on Ubuntu 20.04 image on three Hetzner Cloud instances (CX11, CX21 and CX21).
 
 **This installation is NOT meant to be used for large scale or production environments. 
 It is not possible to convert a cluster made by this script set to a highly-available cluster! (As stated in the kubeadm documentation)**
